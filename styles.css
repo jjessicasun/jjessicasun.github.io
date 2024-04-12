@@ -132,7 +132,7 @@ body {
 }
 
 .hi h2 {
-    font-family: Lightest;
+    font-family: Lightish;
     font-size: 20px;
     line-height: 32px;
     margin: 0;
@@ -156,7 +156,7 @@ body {
     list-style-type: none;
     float: right;
     background-color: rgba(0,0,0,0);
-    font-family: Semibold;
+    font-family: Regular;
     display: flex;
     text-align: center;
     overflow: hidden;
@@ -196,7 +196,7 @@ body {
     border-radius: 12px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .toggle-button {
         display: flex;
     }
@@ -347,7 +347,7 @@ body {
 }
 
 .thank-you h3 {
-    font-family: Ultralight;
+    font-family: Regular;
     margin: 0;
     text-align: center;
     font-size: 10px;
@@ -359,7 +359,6 @@ body {
 /* ------------------------------ BUTTON STATES ------------------------------ */
 
 .name a {
-    font-family: Regular;
     text-decoration: none;
 
 }
