@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head> 
+		<meta charset="UTF-8">
+		<meta name="description" content="Hi! I'm Jessica, a designer passionate about solving problems.">
+		<meta name="author" content="Jessica Sun">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta name="keywords" content="Waterloo, University of Waterloo, UW, UWaterloo, Waterloo University, Jessica Sun, Kinesiology, Product Design">
+		<title>jessica sun</title>
+		<link rel="stylesheet" href="styles.css"/>
+		<script src="script.js" defer></script>
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+
+    <body>
+		<nav class="navbar">
+			<div class="name">
+				<a href="index.html">jessica sun☼</a>
+			</div>
+			<a href="#" class="toggle-button">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</a>
+			<div class="navbar-links">
+				<ul>
+					<li><a href="https://jjessicasun.notion.site/Portfolio-69af7d05d7fc4a1d9222cc13bab461be" target="_blank" >WORK</a></li>
+					<li><a href="about-me.html" target="_self">ABOUT ME</a></li>
+					<li><a href="https://drive.google.com/file/d/1Tjwa7gIAwNqEK6rITvqhINi-pllnDYYK/view?usp=sharing" target="_blank">RESUME</a></li>
+				</ul>
+			</div>
+			
+		</nav>
+
+			
+		<script>
+		window.onscroll = function() {stickyNavbar()};
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+		
+		function stickyNavbar() {
+			if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+			} else {
+				navbar.classList.remove("sticky");
+			}
+		}
+		</script>
+
+        <div class="me">
+			<div class="introduction">
+				<h1>Hey there, <br> I'm <span style="color: #F4A261">Jessica</span>  ☻</h1>
+				<p>I am a current student at the <strong>University of Waterloo</strong> studying Kinesiology. As a designer, 
+					I hope to bring more accessible and research-backed solutions to the intersection 
+					of technology and social good (like healthcare and sustainability). I always strive to design with 
+					empathy and to make a lasting impact.</p>
+			</div> 
+
+			<div class="picture">
+				<img src="jess in big sur.jpeg" alt="jess in big sur">
+			</div>   
+        </div>
+
+		<footer>
+			<section class="showcase-footer">
+				<div class="video-container">
+					<video src="video.mov" autoplay muted loop></video>
+				</div>
+				<div class="overlay"></div>
+				<div class="thank-you">
+					<h1>Thanks for stopping by! 👋</h1>
+					<h2>Let's connect.</h2>
+					<a href="https://www.linkedin.com/in/jjessicasun/">
+						<img src="linkedin.png" alt="LinkedIn"/>
+					</a>
+					<a href="mailto:jessicasun42@gmail.com">
+						<img src="mail.png" alt="Email"/>
+					</a>
+					<a href="tel:2896897546">
+						<img src="phone.png" alt="Phone"/>
+					</a>
+					<h3>Built with 💛 & 🌞<br> © Jessica Sun 2024</h3>
+				</div>
+			</section>
+		</footer>
+
+    </body>
