@@ -359,6 +359,7 @@ body {
 /* ------------------------------ BUTTON STATES ------------------------------ */
 
 .name a {
+    font-family: Regular;
     text-decoration: none;
 
 }
