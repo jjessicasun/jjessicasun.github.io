@@ -1,49 +1,3 @@
-/* ------------------------------ FONTS ------------------------------ */
-
-
-@font-face {
-    font-family: Regular;
-    src: url('SF-Pro-Text-Regular.otf');
-}
-
-@font-face {
-    font-family: Lightish;
-    src: url('SF-Pro-Text-Light.otf');
-}
-
-@font-face {
-    font-family: Lightest;
-    src: url('SF-Pro-Text-Thin.otf');
-}
-@font-face {
-    font-family: Title;
-    src: url('SF-Pro-Display-Bold.otf');
-}
-
-@font-face {
-    font-family: Semibold;
-    src: url('SF-Pro-Text-Semibold.otf');
-}
-
-@font-face {
-    font-family: Mediumish;
-    src: url('SF-Pro-Text-Medium.otf');
-}
-
-@font-face {
-    font-family: Bold;
-    src: url('SF-Pro-Display-Bold.otf');
-}
-
-@font-face {
-    font-family: SF Pro;
-    src: url('SF-Pro.ttf');
-}
-
-@font-face {
-    font-family: Ultralight;
-    src: url('SF-Pro-Text-Ultralight.otf');
-}
 
 /* ------------------------------ HERO ------------------------------ */
 
@@ -101,6 +55,9 @@
 
 body {
     margin: 0px 0px;
+    font-family: Lato;
+
+    /* background-color: #001312; */
 }
 
 .hi {
@@ -124,14 +81,15 @@ body {
 }
 
 .hi h1 {
-    font-family: Mediumish;
+    font-weight: 700;
     font-size: 68px;
     padding-bottom: 12px;
+    line-height: 80px;
     margin: 0;
 }
 
 .hi h2 {
-    font-family: Lightish;
+    font-weight: 400;
     font-size: 20px;
     line-height: 32px;
     margin: 0;
@@ -155,7 +113,6 @@ body {
     list-style-type: none;
     float: right;
     background-color: rgba(0,0,0,0);
-    font-family: Regular;
     display: flex;
     text-align: center;
     overflow: hidden;
@@ -170,7 +127,6 @@ body {
 
 .name {
     text-align: center;
-    font-family: Lightish;
     font-size: 18px;
     margin: 24px 16px 16px 64px;
 }
@@ -266,12 +222,14 @@ body {
 }
 
 .introduction h1 {
-    font-family: Mediumish;
+    font-weight: 600;
     font-size: 68px;
+    line-height: 80px;
+    margin-bottom: 4%;
 }
 
 .introduction p {
-    font-family: Lightish;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 }
@@ -337,7 +295,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Mediumish;
     font-size: 28px;
     color: #FFFAE3;
     margin-top: 0px;
@@ -363,14 +320,13 @@ body {
 }
 
 .activities h2 {
-    font-family: Mediumish;
     font-size: 24px;
     color: #F4A261;
     text-align: center;
 }
 
 .activities p {
-    font-family: Lightish;
+    font-weight: 400;
     font-size: 16px;
     color: #FFFAE3;
     text-align: center;
@@ -419,16 +375,16 @@ body {
     justify-content: center;
     align-items: center;
     padding-bottom: 24px;
+    margin: 0;
 }
 
 .section h2 {
-    font-family: Mediumish;
     font-size: 24px;
     color: #F4A261;
 }
 
 .section p {
-    font-family: Lightish;
+    font-weight: 400;
     font-size: 16px;
     color: #FFFAE3;
     line-height: 24px;
@@ -455,14 +411,13 @@ body {
 }
 
 .thank-you h1 {
-    font-family: Mediumish;
     margin: 0;
     text-align: center;
     font-size: 24px;
 }
 
 .thank-you h2 {
-    font-family: Lightish;
+    font-weight: 400;
     font-size: 16px;
     margin-top: 25px;
 }
@@ -475,7 +430,6 @@ body {
 }
 
 .thank-you h3 {
-    font-family: Regular;
     margin: 0;
     text-align: center;
     font-size: 10px;
@@ -488,7 +442,6 @@ body {
 
 .name a {
     text-decoration: none;
-    font-family: Regular;
 
 }
 
