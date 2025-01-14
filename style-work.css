@@ -1,0 +1,180 @@
+/* ------------------------------ GENERAL ------------------------------ */
+
+
+
+.project-landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #0d0012;
+    background-image: url('Gradient.svg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.project-intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
+.project-info {
+    width: 40%;
+    color: #FFFAE3;
+    margin-left: 10%;
+}
+
+.project-picture {
+    width: 40%;
+    margin-right: 10%;
+    margin-left: 4%;
+}
+
+.project-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 750px) {
+    .project-intro {
+        flex-direction: column;
+    }
+
+    .project-info {
+        margin: 0;
+        width: 80%;
+    }
+    
+    .project-picture {
+        margin: 0;
+        width: 80%;
+    }
+
+    .project-details {
+        flex-direction: column;
+        width: 70%;
+    }
+}
+
+.project-details {
+    color: #FFFAE3;
+    display: flex;
+    flex-direction: row;
+    width: 81%;
+    justify-content: space-around;
+    margin-right: 4%;
+}
+
+.project-details-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 3%;
+}
+
+/* ------ text styling ------ */
+
+body {
+    background-color: #0d0012;
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.project-subtitle {
+    font-size: 20px;
+}
+
+.details-title {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.details-content {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* ------ divider ------ */
+.divider {
+    height: 10rem;
+    background-color: rgba(38,70,83,0.9);
+}
+
+.divider-title {
+    margin: auto;
+    color: #FFFAE3;
+}
+
+/* General layout */
+.overview-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10% 10%;
+    color: #FFFAE3;
+}
+
+.overview-heading {
+    flex-basis: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    flex-basis: 30%;
+}
+
+.overview-heading h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F4A261;
+}
+
+.overview-content {
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/* Individual content sections */
+.content-section h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.content-section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 1000px) {
+    .overview-heading h1 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .overview-section {
+        flex-direction: column;
+    }
+
+    .overview-heading h1 {
+        width: 100%;
+    }
+
+}
+
