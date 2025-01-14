@@ -12,6 +12,9 @@
     background-image: url('Gradient.svg');
     background-size: cover;
     background-attachment: fixed;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .project-intro {
